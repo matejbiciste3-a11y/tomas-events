@@ -11,22 +11,12 @@ export default function Header() {
               Tomas Events
             </span>
           </Link>
-          
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-primary font-medium transition-colors">
-              Domů
-            </Link>
-            <Link href="/events" className="text-gray-700 hover:text-primary font-medium transition-colors">
-              Eventy
-            </Link>
-            <Link href="/shop" className="text-gray-700 hover:text-primary font-medium transition-colors">
-              Obchod
-            </Link>
-            <Link href="/dashboard" className="text-gray-700 hover:text-primary font-medium transition-colors">
-              Profil
-            </Link>
+            <Link href="/" className="text-gray-700 hover:text-primary font-medium transition-colors">Domů</Link>
+            <Link href="/events" className="text-gray-700 hover:text-primary font-medium transition-colors">Eventy</Link>
+            <Link href="/shop" className="text-gray-700 hover:text-primary font-medium transition-colors">Obchod</Link>
+            <Link href="/dashboard" className="text-gray-700 hover:text-primary font-medium transition-colors">Profil</Link>
           </nav>
-
           <div className="flex items-center space-x-4">
             <DiscordButton />
           </div>
